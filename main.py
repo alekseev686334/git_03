@@ -53,5 +53,6 @@ def calculate():
             print("Невідома операція, спробуйте ще раз.")
 
 
-calculate()
-print()
+if __name__ == "__main__":
+    calculate()
+
